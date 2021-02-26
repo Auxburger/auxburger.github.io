@@ -6,3 +6,11 @@ h1 {
 #divbody {
   margin: 2em;
 }
+
+a.disabled {
+  pointer-events: none;
+  color:Gray;
+  cursor: default;
+  text-decoration: none;
+
+}
