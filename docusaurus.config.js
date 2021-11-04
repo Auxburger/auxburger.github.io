@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Auxburger/blog/edit/main/website/',
+          editUrl: 'https://github.com/Auxburger/blog/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Auxburger/blog/edit/main/website/blog/',
+            'https://github.com/Auxburger/blog/tree/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,12 +50,17 @@ const config = {
         },
         items: [
           {
+            to: '/projects/intro', 
+            position: 'left',
+            label: 'Projects',
+          },
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/auxburger/blog',
             label: 'GitHub',
@@ -67,29 +72,28 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Django',
+                to: '/docs/intro',
+              }, {
+                label: 'Ubuntu',
+                to: '/docs/ubuntu/graphics',
+              },
+              {
+                label: 'Windows',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Socialmedia',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Instagram',
+                href: 'https://www.instagram.com/darius_burg',
+              }
             ],
           },
           {
@@ -102,6 +106,16 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/Auxburger',
+              },
+
+              {
+                label: 'Vulpery UG',
+                href: 'https://vulpery.com',
+              },
+
+              {
+                label: 'OberSmart',
+                href: 'https://obersmart.de',
               },
             ],
           },
