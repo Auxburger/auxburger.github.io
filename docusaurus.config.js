@@ -91,6 +91,10 @@ const config = {
             title: 'Socialmedia',
             items: [
               {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/darius-augsburger-5443771ab/',
+              },
+              {
                 label: 'Instagram',
                 href: 'https://www.instagram.com/darius_burg',
               }
