@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Auxburger',
   tagline: 'Blog and Projects',
-  url: 'https://auxburger.com',
+  url: 'https://auxburger.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
