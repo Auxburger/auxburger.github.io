@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Documentation
+# Projects Intro
 
-This documentation contains every useful stuff i found out and wanted to note down. I often use those notes and maybe they can help you now, too. 
+Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
 

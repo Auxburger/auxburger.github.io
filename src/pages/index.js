@@ -29,8 +29,8 @@ export default function Home() {
     const { siteConfig } = useDocusaurusContext();
     return (
         <Layout
-            title={`Blog and Projects of ${siteConfig.title}`}
-            description="This is the blog of Darius Augsburger. It is about cool stuff, different technologies and projects.">
+            title={`Blog and Projects of Darius Augsburger`}
+            description="This is the blog of Darius Augsburger. It is about helpful cool stuff, different technologies and projects.">
             <HomepageHeader />
             <main>
                 <HomepageFeatures />

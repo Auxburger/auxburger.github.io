@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Documentation
+# Welcome
 
-This documentation contains every useful stuff i found out and wanted to note down. I often use those notes and maybe they can help you now, too. 
+Hello dear visitor, i'm happy to see you here. That means you want to learn something useful for your projects and thus, for your life. 
 
 ## Getting Started
 

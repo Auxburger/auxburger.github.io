@@ -4,7 +4,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Auxburger',
   tagline: 'Blog and Projects',
@@ -12,9 +11,9 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'auxburger', // Usually your GitHub org/user name.
-  projectName: 'auxburger', // Usually your repo name.
+  favicon: 'img/baby-yoda.png',
+  organizationName: 'Auxburger', // Usually your GitHub org/user name.
+  projectName: 'auxburger.github.io', // Usually your repo name.
 
   presets: [
     [
@@ -22,6 +21,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/Auxburger/blog/tree/main/',
@@ -38,6 +39,28 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'projects',
+        path: 'projects',
+        routeBasePath: 'projects',
+        sidebarPath: require.resolve('./sidebars.js'),
+        // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'tutorials',
+        path: 'tutorials',
+        routeBasePath: 'tutorials',
+        sidebarPath: require.resolve('./sidebars.js'),
+        // ... other options
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -46,11 +69,16 @@ const config = {
         title: 'Auxburger',
         logo: {
           alt: 'Auxburger Logo',
-          src: 'img/logo.svg',
+          src: 'img/baby-yoda.png',
         },
         items: [
           {
-            to: '/projects/intro', 
+            to: '/tutorials/intro',
+            position: 'left',
+            label: 'Tutorials',
+          },
+          {
+            to: '/projects/intro',
             position: 'left',
             label: 'Projects',
           },
@@ -109,17 +137,17 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Auxburger',
+                href: 'https://www.github.com/Auxburger',
               },
 
               {
                 label: 'Vulpery UG',
-                href: 'https://vulpery.com',
+                href: 'https://www.vulpery.com',
               },
 
               {
                 label: 'OberSmart',
-                href: 'https://obersmart.de',
+                href: 'https://www.obersmart.de',
               },
             ],
           },
