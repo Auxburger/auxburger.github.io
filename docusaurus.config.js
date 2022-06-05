@@ -23,6 +23,7 @@ const config = {
         docs: {
           path: 'docs',
           routeBasePath: 'docs',
+          showLastUpdateTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/Auxburger/blog/tree/main/',
@@ -45,6 +46,7 @@ const config = {
       {
         id: 'projects',
         path: 'projects',
+        showLastUpdateTime: true,
         routeBasePath: 'projects',
         sidebarPath: require.resolve('./sidebars.js'),
         // ... other options
@@ -55,6 +57,7 @@ const config = {
       {
         id: 'tutorials',
         path: 'tutorials',
+        showLastUpdateTime: true,
         routeBasePath: 'tutorials',
         sidebarPath: require.resolve('./sidebars.js'),
         // ... other options
@@ -107,11 +110,11 @@ const config = {
                 to: '/docs/intro',
               }, {
                 label: 'Ubuntu',
-                to: '/docs/ubuntu/graphics',
+                to: '/docs/Ubuntu/Customizations/graphics',
               },
               {
                 label: 'Windows',
-                to: '/docs/intro',
+                to: '/docs/Windows/openssh',
               },
             ],
           },
