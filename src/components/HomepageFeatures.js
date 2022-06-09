@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('../../static/img/vulpery.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        <a href="https://www.vulpery.com">Vulpery UG</a> lets you focus on your docs, and we&apos;ll do the chores. Go
         ahead and move your docs into the <code>docs</code> directory.
       </>
     ),

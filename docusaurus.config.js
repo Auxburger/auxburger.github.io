@@ -110,11 +110,11 @@ const config = {
                 to: '/docs/intro',
               }, {
                 label: 'Ubuntu',
-                to: '/docs/Ubuntu/Customizations/graphics',
+                to: '/docs/ubuntu/customizations/graphics',
               },
               {
                 label: 'Windows',
-                to: '/docs/Windows/openssh',
+                to: '/docs/windows/openssh',
               },
             ],
           },
