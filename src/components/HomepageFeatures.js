@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        I am developing much stuff in my spare time. 
+        I am developing much stuff in my spare time.
         Thus, i start to document everything i think is also useful for others. May it be tutorials, projects or <i>how to</i> snippets on things i had to fight with.
       </>
     ),
@@ -18,8 +18,7 @@ const FeatureList = [
     Svg: require('../../static/img/vulpery.svg').default,
     description: (
       <>
-        <a href="https://www.vulpery.com">Vulpery UG</a> lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        At <a href="https://www.vulpery.com">Vulpery UG</a> we focus on digitalization and innovation. Our goal is to lead the humankind into a smarter world.
       </>
     ),
   },
@@ -28,14 +27,13 @@ const FeatureList = [
     Svg: require('../../static/img/obersmart.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Our first app is <a href="https://www.obersmart.de">OberSmart</a> which fastens the ordering process and fights high workloads.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
