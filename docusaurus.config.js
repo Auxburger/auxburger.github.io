@@ -80,11 +80,11 @@ const config = {
             position: 'left',
             label: 'Tutorials',
           },
-          {
+          /*{
             to: '/projects/intro',
             position: 'left',
             label: 'Projects',
-          },
+          },*/
           {
             type: 'doc',
             docId: 'intro',
