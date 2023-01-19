@@ -19,7 +19,7 @@ const config = {
     [
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           path: 'docs',
           routeBasePath: 'docs',
@@ -37,7 +37,11 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+        googleAnalytics: {
+          trackingID: 'G-BB3XQ43K6L',
+          anonymizeIP: true,
+        },
+      },
     ],
   ],
   plugins: [
