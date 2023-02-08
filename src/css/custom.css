@@ -6,14 +6,24 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #517b4f;
-  --ifm-color-primary-dark: #496f47;
-  --ifm-color-primary-darker: #456943;
-  --ifm-color-primary-darkest: #395637;
-  --ifm-color-primary-light: #598757;
-  --ifm-color-primary-lighter: #5d8d5b;
-  --ifm-color-primary-lightest: #6b9e68;
+  --ifm-color-primary: #314a54;
+  --ifm-color-primary-dark: #2c434c;
+  --ifm-color-primary-darker: #2a3f47;
+  --ifm-color-primary-darkest: #22343b;
+  --ifm-color-primary-light: #36515c;
+  --ifm-color-primary-lighter: #385561;
+  --ifm-color-primary-lightest: #40606d;
   --ifm-code-font-size: 95%;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #a7c2cb;
+  --ifm-color-primary-dark: #90b2bd;
+  --ifm-color-primary-darker: #84aab6;
+  --ifm-color-primary-darkest: #6192a2;
+  --ifm-color-primary-light: #bed2d9;
+  --ifm-color-primary-lighter: #cadae0;
+  --ifm-color-primary-lightest: #edf2f4;
 }
 
 .docusaurus-highlight-code-line {
@@ -25,4 +35,14 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.my-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.my-link-light {
+  text-decoration: underline;
+  color: white;
 }

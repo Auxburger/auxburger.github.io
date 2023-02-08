@@ -159,7 +159,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Auxburger, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Darius Augsburger, Inc. Built with Docusaurus.<br> <a class="my-link-light" href="https://www.freepik.com/free-photo/beautiful-milky-way-night-sky_18667464.htm#query=space&position=0&from_view=search&track=sph">Image by rawpixel.com</a> on Freepik`,
       },
       prism: {
         theme: lightCodeTheme,
