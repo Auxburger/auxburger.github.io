@@ -13,6 +13,25 @@
   background-size: cover;
 }
 
+
+@media screen and (max-width: 1920px) {
+  .heroBanner {
+    background-image: url("/img/space-1920x1080.jpg");
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .heroBanner {
+    background-image: url("/img/space-1024x576.jpg");
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .heroBanner {
+    background-image: url("/img/space-512x288.jpg");
+  }
+}
+
 .heroImage {
   width: 40vw;
   max-width: 200px;
