@@ -2,34 +2,6 @@
 sidebar_position: 1
 ---
 
-# Projects Intro
+# Welcome to my coding blog! 😊
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npm init docusaurus@latest my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+I am a software developer with a passion for writing code and finding creative solutions to complex problems. This blog is my space to share my coding journey, from the challenges I face to the lessons I learn along the way. I will be covering a variety of topics including web development, mobile app development, game development, and more. Whether you're just starting out or you're an experienced programmer, I hope to provide valuable insights and inspiration for your own coding journey. Join me as I explore the world of programming and share my thoughts and experiences on this exciting and ever-evolving field.

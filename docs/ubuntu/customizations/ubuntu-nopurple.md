@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Log in and boot screen color 
 ## Ubuntu < 20
 <p>edit '/usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.script':</p>
