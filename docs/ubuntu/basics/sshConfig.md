@@ -1,4 +1,4 @@
-# Executing Files
+# Enhance your SSH experience
 
 In Linux you generally have to mark a file as executable if you desire to run it. 
 This works by first setting the executable of the file with
