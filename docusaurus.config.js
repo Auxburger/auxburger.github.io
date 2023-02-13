@@ -114,7 +114,7 @@ const config = {
                 to: '/docs/intro',
               }, {
                 label: 'Ubuntu',
-                to: '/docs/ubuntu/customizations/graphics',
+                to: '/docs/ubuntu/basics/fileExecute',
               },
               {
                 label: 'Windows',
